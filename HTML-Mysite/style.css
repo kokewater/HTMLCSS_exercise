@@ -1,0 +1,165 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+header {
+  width: 100%;
+  height: 70px;
+  background-color: #ec715f;
+}
+
+.container {
+  width: 1024px;
+  margin: 0 auto;
+}
+
+.logo {
+  height: 70px;
+  float: left;
+}
+
+nav {
+  float: right;
+}
+
+.nav-list {
+  float: left;
+  width: 120px;
+  line-height: 70px;
+  color: #fafafa;
+  padding: 0 30px;
+  list-style: none;
+  font-size: 16px;
+}
+
+#mv {
+  width: 100%;
+  height: 650px;
+  text-align: center;
+  color: #fafafa;
+  background-image: url(img/mv.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.mv-title {
+  font-size: 64px;
+  padding-top: 200px;
+}
+
+.mv-text {
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+#portofolio {
+  background-color: #eceff1;
+}
+
+.heading {
+  padding-top: 90px;
+  text-align: center;
+  font-size: 32px;
+}
+
+.heading::after {
+  content: "";
+  display: block;
+  width: 70px;
+  height: 3px;
+  margin: 8px auto 0;
+  background-color: #ec715f;
+}
+
+.heading-text {
+  padding-top: 30px;
+  text-align: center;
+  font-size: 16px;
+}
+
+.production-group {
+  width: 920px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.production {
+  width: 300px;
+  height: 250px;
+  margin: 10px 10px 0 0;
+  background-size: cover;
+  background-position: center;
+}
+
+.production:nth-child(-n + 3) {
+  margin-bottom: 0;
+}
+
+.production:nth-child(3n) {
+  margin-right: 0;
+}
+
+.box1 {
+  background-image: url(img/sketch.jpg);
+}
+
+.box2 {
+  background-image: url(img/websuku.png);
+}
+
+.box3 {
+  background-image: url(img/write.jpg);
+}
+
+.box4 {
+  background-image: url(img/webcamp.png);
+}
+
+.box5 {
+  background-image: url(img/talk.jpg);
+}
+
+.box6 {
+  background-image: url(img/webcamp-mother.png);
+}
+
+.strength-group {
+  width: 980px;
+  padding: 30px 0 90px 0;
+  margin: 0 auto;
+}
+
+.strength {
+  float: left;
+  width: 320px;
+  margin-right: 10px;
+  text-align: center;
+  font-size: 60px;
+}
+
+.strength:last-child {
+  margin-right: 0;
+}
+
+.strength-title {
+  padding: 10px 0;
+  font-size: 20px;
+}
+
+.strength-text {
+  text-align: left;
+  font-size: 16px;
+}
